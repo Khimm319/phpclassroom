@@ -6,11 +6,32 @@
   echo "<td>"; 
   echo "ลำดับ";
   echo "</td>"; 
-  echo "<td>"; 
+  echo "<o>"; 
   echo "จังหวัด";
   echo "</td>"; 
   echo "</tr>";
-  foreach($data as $key=>$val){
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "ผู้ป่วยใหม่";
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "ผู้ป่วยรวม";
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "ผู้ป่วยใหม่ในประเทศ";
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "ผู้ป่วยรวมในประเทศ";
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "ผู้เสียชีวิตใหม่";
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "ผู้เสียชีวิตรวม";
+  echo "</td>"; 
+  echo "<o>"; 
+  echo "วันที่อัพเดท";
+foreach($data as $key=>$val){
     echo "<tr>";
     echo "<td>"; 
     echo $key+1;
